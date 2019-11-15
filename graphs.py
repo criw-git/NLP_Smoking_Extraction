@@ -158,7 +158,7 @@ plt.plot(epoch[0:len(mean_lstmb_gnv)], mean_lstmb_gnv, color='k', label = 'LSTM_
 plt.plot(epoch[0:len(mean_lstmb_w2v)], mean_lstmb_w2v, color='k', linestyle='dashed', label = 'LSTM_Bi Post-trained')
 plt.xlabel('Models', fontsize = font)
 plt.ylabel('Validation Accuracy', fontsize = font)
-plt.title('Validation Accurcay of Binary Models', **title_font)
+plt.title('Validation Accuracy of Binary Models', **title_font)
 plt.show()
 
 ##########################################################################
@@ -201,7 +201,7 @@ plt.plot(epoch[0:len(mean_lstmb_gnv)], mean_lstmb_gnv, color='k', label = 'LSTM_
 plt.plot(epoch[0:len(mean_lstmb_w2v)], mean_lstmb_w2v, color='k', linestyle='dashed', label = 'LSTM_Bi Post-trained')
 plt.xlabel('Models', fontsize = font)
 plt.ylabel('Validation Accuracy', fontsize = font)
-plt.title('Validation Accurcay of Multi-classs Models', **title_font)
+plt.title('Validation Accuracy of Multi-classs Models', **title_font)
 plt.show()
 
 ##########################################################################
